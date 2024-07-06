@@ -3,6 +3,7 @@ import requests
 url = "http://codeforces.com/api"
 options = '/contest.list'
 link = 'http://codeforces.com/contest/'
+# pass 
 
 data = requests.get(url+options)
 data = data.json()
