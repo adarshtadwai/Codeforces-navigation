@@ -24,6 +24,7 @@ if data['status'] == 'OK':
         temp += str(cnt)
         temp += ':  '
         temp += link+str(i)
+
         temp += '\n'
         f.write(temp)
         cnt+=1
